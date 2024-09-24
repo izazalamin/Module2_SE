@@ -2,6 +2,9 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
   font-family: 'Mulish', sans-serif;
   background-color: #e8e4f0;
 }
@@ -15,43 +18,59 @@ body {
 }
 
 /* Navbar Styling */
+/* Navbar */
 .navbar {
   width: 100%;
-  background-color: #cba9f0;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  background-color: #C397FF;
+  padding: 0 20px;
+  position: relative;
 }
 
-.navbar img.eclipse {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-
-.navbar .text-wrapper,
-.navbar .text-wrapper-2,
-.navbar .text-wrapper-3,
-.navbar .text-wrapper-4 {
-  margin: 0 20px;
-  font-size: 18px;
+/* Menu items */
+.text-wrapper, .text-wrapper-2, .text-wrapper-3, .text-wrapper-4 {
+  color: black;
+  margin-right: 20px;
   font-weight: bold;
+}
+
+/* Search bar styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.search-input {
+  border: none;
+  padding: 8px;
+  font-size: 14px;
+  width: 200px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
   cursor: pointer;
 }
 
-.navbar .text-wrapper-3 {
-  text-decoration: none;
-}
-
-.navbar .search-logo img {
+.search-button img {
   width: 20px;
   height: 20px;
 }
 
-.navbar img.shopcart {
+/* Cart icon */
+.shopcart {
   width: 24px;
   height: 24px;
+  margin-left: 20px;
 }
 
 /* Middle Section Styling */
@@ -74,11 +93,15 @@ body {
 }
 
 .middle p.text-wrapper-6 {
+  text-align: center; /* Center the text itself */
+  max-width: 400px; /* Limit how wide the paragraph can get */
+  margin: 0 auto; /* Center the whole block horizontally */
+  padding: 10px 40px; /* Add padding around the text (adjust as needed) */
+  line-height: 1.8; /* Add line spacing for readability */
   font-size: 16px;
-  color: #e3d7ff;
-  max-width: 800px;
-  margin: 10px auto 0;
-}
+  color: black;; /* Adjust text color if needed */
+  }
+  
 
 /* Blah Blah Section */
 .div-wrapper {
@@ -89,8 +112,10 @@ body {
 
 .div-wrapper .midparagraph {
   color: white;
-  font-size: 24px;
+  font-size: 54px;
   text-align: center;
+  font-style: italic;
+  padding: 30px;
 }
 
 /* Reviews Section Styling */
