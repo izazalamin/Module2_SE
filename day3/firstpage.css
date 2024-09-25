@@ -1,0 +1,13 @@
+.firstpage {
+    height: 563px;
+    width: 100%;
+}
+
+.prada {
+    font-family: 'Modern No. 20', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    position: relative;
+    top: 10px;
+    left: 41.5%;                                   
+}

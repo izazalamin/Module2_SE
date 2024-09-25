@@ -1,0 +1,36 @@
+header {
+    /* padding-top: 48px; */
+    background-color: rgba(196,196,196,1);
+    display: flex;
+    height: 78px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-center{
+    border-bottom:solid black 2px;
+    position: absolute;
+    left: 40%;
+    top: 23px;
+}
+
+.header-right {
+    position: relative;
+    left: 10%;
+}
+
+
+.header-right .love {
+    position: relative;
+}
+
+.text-bag{
+    position: relative;
+    left: 20%;
+}
+
+.header-right .shopbag {
+    position: relative;
+    left:30%;
+}
+
